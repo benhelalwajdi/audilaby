@@ -1,0 +1,166 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowContentTransitions">true</item>-->
+    </style>
+
+    <style name="audiolabySwitch">
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="audiolabySwitch2" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/grey_text</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar" parent="@style/AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.TranslucentStatusBar" parent="@style/AppTheme.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">19sp</item>
+        <item name="fontPath">HacenMaghrebBd.ttf</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+
+
+
+    <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
+    <style name="TextAppearance.AppCompat" parent="@style/Base.TextAppearance.AppCompat" />
+    <style name="FloatingEditText" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="TextLabel" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColorHint">@color/text_black</item>
+        <item name="colorAccent">@color/text_black</item>
+        <item name="colorControlNormal">@color/text_black</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@style/Platform.ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
+        <item name="android:textColorHint">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
+        <item name="isLightTheme">false</item>
+        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorButtonNormal">@color/button_material_dark</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+        <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
+    </style>
+
+    <!--<style name="Base.ThemeOverlay.AppCompat.Dark" parent="@style/Platform.ThemeOverlay.AppCompat.Dark">-->
+        <!--<item name="android:colorForeground">@color/foreground_material_dark</item>-->
+        <!--<item name="android:colorBackground">@color/background_material_dark</item>-->
+        <!--<item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>-->
+        <!--<item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>-->
+        <!--<item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>-->
+        <!--<item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>-->
+        <!--<item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>-->
+        <!--<item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>-->
+        <!--<item name="android:windowBackground">@color/background_material_dark</item>-->
+        <!--<item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>-->
+        <!--<item name="android:textColorHint">@color/abc_hint_foreground_material_dark</item>-->
+        <!--<item name="android:colorForegroundInverse">@color/foreground_material_light</item>-->
+        <!--<item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>-->
+        <!--<item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>-->
+        <!--<item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>-->
+        <!--<item name="isLightTheme">false</item>-->
+        <!--<item name="colorControlNormal">?android:textColorSecondary</item>-->
+        <!--<item name="colorControlHighlight">@color/ripple_material_dark</item>-->
+        <!--<item name="colorButtonNormal">@color/button_material_dark</item>-->
+        <!--<item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>-->
+        <!--<item name="colorBackgroundFloating">@color/background_floating_material_dark</item>-->
+    <!--</style>-->
+
+
+    <style name="TagGroup">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:supportsRtl">true</item>
+        <item name="atg_isAppendMode">false</item>
+        <item name="atg_inputHint">@string/empty</item>
+        <item name="atg_borderColor">@color/colorAccent</item>
+        <item name="atg_textColor">@color/colorAccent</item>
+        <item name="atg_backgroundColor">#FFFFFF</item>
+        <item name="atg_dashBorderColor">#AAAAAA</item>
+        <item name="atg_inputHintColor">#80000000</item>
+        <item name="atg_inputTextColor">#DE000000</item>
+        <item name="atg_checkedBorderColor">#49C120</item>
+        <item name="atg_checkedTextColor">#FFFFFF</item>
+        <item name="atg_checkedMarkerColor">#FFFFFF</item>
+        <item name="atg_checkedBackgroundColor">#49C120</item>
+        <item name="atg_pressedBackgroundColor">#EDEDED</item>
+        <item name="atg_borderStrokeWidth">1dp</item>
+        <item name="atg_textSize">15sp</item>
+        <item name="atg_horizontalSpacing">8dp</item>
+        <item name="atg_verticalSpacing">4dp</item>
+        <item name="atg_horizontalPadding">12dp</item>
+        <item name="atg_verticalPadding">3dp</item>
+    </style>
+
+
+    <!-- Dialog -->
+
+    <style name="MyDialogFadeAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+
+    <style name="DatePickerSpinner">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+    </style>
+
+
+</resources>

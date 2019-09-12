@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.hockeyapp.android:HockeySDK:4.1.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/HockeySDK-4.1.3.aar/b4fed780da6728baa6e4340df29d861b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/HockeySDK-4.1.3.aar/b4fed780da6728baa6e4340df29d861b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.hockeyapp.android/HockeySDK/4.1.3/be6e5c8e2f6cc074361a8f016c561df8b3afa8f4/HockeySDK-4.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

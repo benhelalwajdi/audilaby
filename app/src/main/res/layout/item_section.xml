@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/carousel_margin_bottom"
+    android:background="@color/white"
+    android:layout_marginLeft="@dimen/browse_margin"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp">
+
+            <View
+                android:layout_width="6dp"
+                android:layout_height="13dp"
+                android:background="@color/colorPrimary"
+                />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="الجديد"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/text_black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/more"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/more_background"
+            android:text="@string/see_all"
+            android:textColor="@color/colorAccent"
+            android:textSize="15.5sp" />
+    </RelativeLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/elements"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/book_card_height"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

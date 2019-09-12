@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Audiolaby</string>
+    <string name="facebook_app_id">450930691971362</string>
+
+    <!--live-->
+    <string name="ADMOB_BANNER">ca-app-pub-6288734226739078/1902263949</string>
+    <!--testing-->
+    <!--<string name="ADMOB_BANNER">ca-app-pub-3940256099942544/6300978111</string>-->
+
+
+    <!--Error-->
+    <string name="error_no_metadata">لا يمكن العثور على الملف الصوتي.</string>
+    <string name="error_connection_ops">الرجاء اعادة الاتصال بالانترنت</string>
+    <string name="error_connection">الرجاء اعادة الاتصال بالانترنت</string>
+    <string name="error_try_again">يوجد خطأ , اعد المحاولة</string>
+    <string name="error_email_unique">تم استعمال هذا الايمايل</string>
+    <string name="error_pseudo_email_unique">تم استعمال هذا الايمايل</string>
+    <string name="error_short_password">كلمة السر يجب ان تحتوي على 6 احرف على الأقل</string>
+    <string name="error_confirm_password">كلمتي السر غير متطابقتين</string>
+    <string name="error_invalid_email">هذا الايميل ليس مطابقا للمعايير</string>
+    <string name="error_update_requid">Mise à jour requise par l\'application.</string>
+    <string name="error_account_disabled">تم حظر هذا الحساب </string>
+    <string name="error_invalid_email_password">الايميل او كلمة المرور خاطئة</string>
+    <string name="error_something_wrong">يوجد خطأ الرجاء اعادة المحاولة</string>
+    <string name="error_user_not_found">لا يوجد اي حساب مرتبط بهذا الايمايل</string>
+    <string name="error_invalid_code_password">الرقم السري خاطئ</string>
+    <string name="error_image">الصورة ضرورية</string>
+    <string name="error_incorrect_post">لا يوجد هذا المقال</string>
+    <string name="error_incorrect_security_code">الرقم السري خاطئ</string>
+    <string name="error_incorrrect_version">Mise à jour requise par l\'application.</string>
+    <string name="unexpected_error_try_again">يوجد خطأ الرجاء اعادة المحاولة</string>
+    <string name="error_field_required">يرجى ملء جميع البيانات</string>
+    <string name="error_invalid_password">كلمة السر يجب ان تحتوي على 6 احرف على الأقل</string>
+    <string name="error_must_agree">يرجى الموافقة على الشروط</string>
+    <string name="error_empty_table">لا يوجد مقالات</string>
+    <string name="error_buy_not_ready">In app billing","Not Ready yet</string>
+    <string name="error_buy_not_availble">In-app billing service is unavailable, please upgrade Android Market/Play to version >= 3.9.16</string>
+
+
+    <!--Splash-->
+
+    <!--Itroduction-->
+    <string name="done">Done</string>
+    <string name="tutorial_description1">tutorial_description1</string>
+    <string name="tutorial_description2">tutorial_description2</string>
+    <string name="tutorial_description3">tutorial_description3</string>
+
+
+
+    <string name="new_version">صدر تحديث جديد للتطبيق</string>
+    <string name="update">تحديث</string>
+    <string name="cancel">الغاء</string>
+
+    <!--Signin-->
+    <string name="email">البريد الإلكتروني</string>
+    <string name="birthday">تاريخ الولادة</string>
+    <string name="password">كلمة السر</string>
+    <string name="forgot">نسيت كلمة السر ؟</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="or_sign">أو</string>
+    <string name="facebook">فايسبوك</string>
+    <string name="google_plus">جوجل بلس</string>
+    <string name="signing_in">دخول ...</string>
+    <string name="need_signup">جديد؟ سجل معنا مجانا</string>
+
+
+    <!--intro-->
+
+
+    <string name="intro_sigin">تسجيل الدخول</string>
+    <string name="intro_browse">تصفح</string>
+    <string name="intro_sigup">سجل معنا</string>
+
+    <!--Signup-->
+    <string name="signup_in">تسجيل ...</string>
+    <string name="register">تسجيل</string>
+    <string name="confirm_password">تأكيد كلمة السر </string>
+    <string name="first_name">الإسم</string>
+    <string name="last_name">اللقب </string>
+    <string name="accept_condition">قرأت و وافقت على الشروط</string>
+    <string name="signup_description1">signup_description1</string>
+    <string name="signup_description4">تم تسجيل و تفعيل حسابك الشخصي , مرحبا بك في اوديولابي</string>
+    <string name="select_picture">أختر صورة لحسابك الشخصي</string>
+    <string name="bravo">برافوا!</string>
+    <string name="confirm">تأكيد</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+
+    <!--Forget-->
+    <string name="send">أرسل</string>
+    <string name="code">الرقم السري</string>
+    <string name="save">حفظ</string>
+
+
+
+    <!--NavMenu-->
+    <string name="my_library">مكتبتي</string>
+    <string name="discover">اكتشف</string>
+    <string name="wishList">المفضلة</string>
+    <string name="empty" />
+    <string name="logout">خروج</string>
+    <string name="settings">الأعدادات</string>
+    <string name="donate">ادعمنا</string>
+
+
+    <!--Main-->
+    <string name="browse">التصفح</string>
+    <string name="categories">الأقسام</string>
+    <string name="see_all">المزيد</string>
+    <string name="see_all_cmments">كل التعليقات</string>
+    <string name="stat_listning">عدد الاستماعات</string>
+    <string name="stat_downloads">عدد التحميلات</string>
+
+    <string name="take_it">احصل على نسختك</string>
+    <string name="contact">اتصل بنا</string>
+
+    <!--Icon-->
+    <string name="icon_search">&#xf002;</string>
+    <string name="icon_heart_empty">&#xf08a;</string>
+    <string name="icon_heart">&#xf004;</string>
+    <string name="icon_user_circle">&#xf2bd;</string>
+    <string name="icon_user_circle_neg">&#xf2be;</string>
+    <string name="icon_ellipsis_vertical">&#xf142;</string>
+    <string name="icon_library">&#xf02d;</string>
+    <string name="icon_wish">&#xf004;</string>
+    <string name="icon_discover">&#xf1e5;</string>
+    <string name="icon_settings">&#xf013;</string>
+    <string name="icon_download">&#xf0ed;</string>
+    <string name="icon_listen">&#xf04b;</string>
+    <string name="icon_arrow_down">&#xf063;</string>
+    <string name="icon_arrow_left">&#xf060;</string>
+    <string name="icon_volume_up">&#xf028;</string>
+    <string name="icon_close">&#xf00d;</string>
+    <string name="icon_facebook">&#xf09a;</string>
+    <string name="icon_google">&#xf0d5;</string>
+    <string name="icon_spinner">&#xf110;</string>
+    <string name="icon_logout">&#xf08b;</string>
+    <string name="icon_send">&#xf1d8;</string>
+    <string name="icon_love">&#xf21e;</string>
+    <string name="icon_share">&#xf1e0;</string>
+    <string name="icon_parts">&#xf0cb;</string>
+
+
+
+    <!--Section-->
+    <string name="section_new_post">الجديد</string>
+    <string name="section_top_post">الأكثر استماعا</string>
+    <string name="section_popular">الأعلى تقييما</string>
+    <string name="section_top_voice">افضل المعلقين</string>
+    <string name="section_featured">إخترنا لكم</string>
+    <string name="section_free">المجانية</string>
+    <string name="section_paid">المدفوعة</string>
+    <string name="books_count2">%1$s مقالا</string>
+    <string name="books_count1">%1$s مقالات</string>
+
+
+    <!--AudioDetails-->
+    <string name="cover_transition_name">cover</string>
+    <string name="author_name"> المصدر: %1$s</string>
+    <string name="voiceover_name"> القارئ: %1$s</string>
+    <string name="free"> غير مجاني </string>
+    <string name="not_free"> اشتراك</string>
+    <string name="runtime"> مدة الاستماع %1$s</string>
+    <string name="parts_number">عدد الفصول : %1$s</string>
+
+    <!--LongClick-->
+    <string name="item_remove_wishlist">احذف المقال من المفضلة</string>
+    <string name="item_remove_library">احذف المقال من مكتبتي</string>
+    <string name="item_preview">اطلع على المقال</string>
+    <string name="item_share">شارك المقال</string>
+    <string name="item_play">استمع لللمقال</string>
+    <string name="item_pause">إيقاف الأستماع</string>
+
+    <!--Search-->
+    <string name="search_result">نتائج البحث *%1$s*</string>
+    <string name="search_hint">اكتب كلمة البحث</string>
+
+
+    <!--Player-->
+    <string name="durationformatshort" translatable="false"><xliff:g id="format">%2$d:%3$02d</xliff:g></string>
+    <string name="durationformatlong" translatable="false"><xliff:g id="format">%1$d:%2$02d:%3$02d</xliff:g></string>
+    <string name="notification_channel">UAMP_Channel_ID</string>
+    <string name="notification_channel_description">Channel ID for UAMP</string>
+    <string name="casting_to_device">Casting to %1$s</string>
+    <string name="list_parts">قائمة الفصول</string>
+
+
+    <!--settings-->
+    <string name="allow_notif">خاصية الاشعارات</string>
+
+    <!--donate-->
+    <string name="donate_description2"> بفضل مشاهدتكم للاعلانات و مشاركة التطبيق مع اصدقائكم انتم تساهمون في استمرار أوديولابي فشكرا لكم ايها الرائعون</string>
+    <string name="donate_description1">هذا التطبيق مجاني و يحتاج لدعمكم لكي يستمر</string>
+    <string name="donate_video">شاهد فيديو إعلاني</string>
+    <string name="donate_share">انشر التطبيق</string>
+    <string name="share_string">حمل أوديولابي مجانا الآن و استمع لأفضل المقالات الصوتية</string>
+
+
+
+
+
+
+</resources>
+

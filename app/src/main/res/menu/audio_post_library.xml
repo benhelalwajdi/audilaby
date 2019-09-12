@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item
+        app:id="@+id/remove"
+        android:itemTextColor="@color/text_black"
+        app:orderInCategory="100"
+        app:showAsAction="always|withText"
+        app:title="@string/item_remove_library" />
+    <item
+        app:id="@+id/preview"
+        android:itemTextColor="@color/text_black"
+        app:orderInCategory="100"
+        app:showAsAction="always|withText"
+        app:title="@string/item_preview" />
+    <item
+        app:id="@+id/play"
+        android:itemTextColor="@color/text_black"
+        app:orderInCategory="100"
+        app:showAsAction="always|withText"
+        app:title="@string/item_play" />
+    <item
+        app:id="@+id/pause"
+        android:itemTextColor="@color/text_black"
+        app:orderInCategory="100"
+        app:showAsAction="always|withText"
+        app:title="@string/item_pause" />
+
+    <item
+        app:id="@+id/share"
+        android:itemTextColor="@color/text_black"
+        app:orderInCategory="100"
+        app:showAsAction="always|withText"
+        app:title="@string/item_share" />
+
+</menu>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<menu-->
+    <!--xmlns:app="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res-auto">-->
+    <!--<item-->
+        <!--app:id="@+id/remove"-->
+        <!--android:itemTextColor="@color/text_black"-->
+        <!--app:orderInCategory="100"-->
+        <!--app:icon="@drawable/ic_remove_circle_outline"-->
+        <!--app:showAsAction="always|withText"-->
+        <!--app:title="@string/item_remove_library" />-->
+    <!--<item-->
+        <!--app:id="@+id/preview"-->
+        <!--android:itemTextColor="@color/text_black"-->
+        <!--app:orderInCategory="100"-->
+        <!--app:showAsAction="always|withText"-->
+        <!--app:title="@string/item_preview" />-->
+    <!--<item-->
+        <!--app:id="@+id/play"-->
+        <!--android:itemTextColor="@color/text_black"-->
+        <!--app:orderInCategory="100"-->
+        <!--app:showAsAction="always|withText"-->
+        <!--app:icon="@drawable/ic_play_circle_outline"-->
+        <!--app:title="@string/item_play" />-->
+    <!--<item-->
+        <!--app:id="@+id/pause"-->
+        <!--android:itemTextColor="@color/text_black"-->
+        <!--app:orderInCategory="100"-->
+        <!--app:icon="@drawable/ic_pause_circle_outline"-->
+        <!--app:showAsAction="always|withText"-->
+        <!--app:title="@string/item_pause" />-->
+
+    <!--<item-->
+        <!--app:id="@+id/share"-->
+        <!--android:itemTextColor="@color/text_black"-->
+        <!--app:orderInCategory="100"-->
+        <!--app:icon="@drawable/ic_share"-->
+        <!--app:showAsAction="always|withText"-->
+        <!--app:title="@string/item_share" />-->
+
+<!--</menu>-->

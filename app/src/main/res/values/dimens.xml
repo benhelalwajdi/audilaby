@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="mini_player_height">65.0dip</dimen>
+    <dimen name="category_showcase_element_height">220.0dip</dimen>
+    <dimen name="list_row_height">48.0dip</dimen>
+    <dimen name="book_card_height">200.0dip</dimen>
+    <dimen name="post_item">140.0dip</dimen>
+    <dimen name="carousel_margin_bottom">10.0dip</dimen>
+    <dimen name="browse_margin">0.0dip</dimen>
+
+    <dimen name="player_top_panel_height_difference">16.0dip</dimen>
+
+
+</resources>

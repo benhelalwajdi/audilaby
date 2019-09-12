@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comment_background"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/send_layout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/send_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_select_league" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/comment"
+                    android:layout_width="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/send"
+                    android:background="@null"
+                    android:hint="أضف تعليقا هنا"
+                    android:inputType="textMultiLine"
+                    android:maxLines="4"
+                    android:textColor="@color/black"
+                    android:paddingLeft="16dp"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/send"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="0">
+
+                    <TextView
+                        android:id="@+id/send_icon"
+                        fontPath="FontAwesome.otf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignTop="@+id/titles"
+                        android:layout_centerVertical="true"
+                        android:clickable="true"
+                        android:text="@string/icon_send"
+                        android:textColor="@color/grey1"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

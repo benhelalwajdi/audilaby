@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <declare-styleable name="SpannedGridLayoutManager">
+        <attr name="android:orientation" />
+        <attr name="spanCount" />
+        <attr name="aspectRatio" format="string" />
+    </declare-styleable>
+
+
+
+
+
+
+    <attr name="ate_key" format="string" />
+
+
+
+    <declare-styleable name="CircularImageViewStyle">
+        <attr name="circularImageViewDefault" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PlayTransition">
+        <attr name="colorCT" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MultiViewPager">
+        <!-- Child view inside a page to match the page size against. -->
+        <attr name="matchChildWidth" format="reference" />
+        <!-- Maximum size. -->
+        <attr name="android:maxWidth" />
+        <!-- Maximum size. -->
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularSeekBar">
+        <attr name="progress" format="integer"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="move_outside_circle" format="boolean"></attr>
+        <attr name="maintain_equal_circle" format="boolean"></attr>
+        <attr name="use_custom_radii" format="boolean"></attr>
+        <attr name="lock_enabled" format="boolean"></attr>
+        <attr name="circle_x_radius" format="float" />
+        <attr name="circle_y_radius" format="float" />
+        <attr name="circle_stroke_width" format="float" />
+        <attr name="pointer_radius" format="float" />
+        <attr name="pointer_halo_width" format="float" />
+        <attr name="pointer_halo_border_width" format="float"></attr>
+        <attr name="circle_color" format="string"></attr>
+        <attr name="circle_progress_color" format="string"></attr>
+        <attr name="pointer_color" format="string"></attr>
+        <attr name="pointer_halo_color" format="string"></attr>
+        <attr name="pointer_halo_color_ontouch" format="string"></attr>
+        <attr name="pointer_alpha_ontouch" format="integer"></attr>
+        <attr name="start_angle" format="float"></attr>
+        <attr name="end_angle" format="float"></attr>
+        <attr name="circle_fill" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="TimelyView">
+        <attr name="text_color" format="color"></attr>
+    </declare-styleable>
+
+
+     <declare-styleable name="TagGroup">
+            <!-- Whether the tag group is in append mode. -->
+            <attr name="atg_isAppendMode" format="boolean" />
+            <!-- If the tag group is in append mode, what the hint of input tag. -->
+            <attr name="atg_inputHint" format="string" />
+
+            <!-- The tag view outline border color. -->
+            <attr name="atg_borderColor" format="color" />
+            <!-- The tag view text color. -->
+            <attr name="atg_textColor" format="color" />
+            <!-- The tag view background color. -->
+            <attr name="atg_backgroundColor" format="color" />
+
+            <!-- The dash outline border color, when in append mode. -->
+            <attr name="atg_dashBorderColor" format="color" />
+            <!-- The input tag hint text color, when in append mode. -->
+            <attr name="atg_inputHintColor" format="color" />
+            <!-- The input tag type text color, when in append mode. -->
+            <attr name="atg_inputTextColor" format="color" />
+
+            <!-- The checked tag view outline border color. -->
+            <attr name="atg_checkedBorderColor" format="color" />
+            <!-- The checked text color. -->
+            <attr name="atg_checkedTextColor" format="color" />
+            <!-- The checked marker color. -->
+            <attr name="atg_checkedMarkerColor" format="color" />
+            <!-- The checked tag view background color. -->
+            <attr name="atg_checkedBackgroundColor" format="color" />
+
+            <!-- The tag view background color, when the tag view is being pressed. -->
+            <attr name="atg_pressedBackgroundColor" format="color" />
+
+            <!-- The tag view outline border stroke width. -->
+            <attr name="atg_borderStrokeWidth" format="dimension" />
+            <!-- The tag view text size. -->
+            <attr name="atg_textSize" format="dimension" />
+
+            <attr name="atg_horizontalSpacing" format="dimension" />
+            <attr name="atg_verticalSpacing" format="dimension" />
+            <attr name="atg_horizontalPadding" format="dimension" />
+            <attr name="atg_verticalPadding" format="dimension" />
+        </declare-styleable>
+
+        <declare-styleable name="Themes">
+            <attr name="tagGroupStyle" format="reference" />
+        </declare-styleable>
+
+        <declare-styleable name="TabDigit">
+            <attr name="textSize" format="dimension" />
+            <attr name="padding" format="dimension" />
+            <attr name="cornerSize" format="dimension" />
+            <attr name="textColor" format="color" />
+            <attr name="backgroundColor" format="color" />
+        </declare-styleable>
+
+</resources>

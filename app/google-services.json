@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "483920825919",
+    "firebase_url": "https://audiolaby-daf6d.firebaseio.com",
+    "project_id": "audiolaby-daf6d",
+    "storage_bucket": "audiolaby-daf6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483920825919:android:8bd59ddca0ba8c13",
+        "android_client_info": {
+          "package_name": "com.audiolaby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483920825919-ouioi4bg1ab5grj6sv0v49kktctvg80k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.audiolaby",
+            "certificate_hash": "523867bafe5c3297595c652218000dd3bc0c78f2"
+          }
+        },
+        {
+          "client_id": "483920825919-e1l51bt70qinev7tvds2uo48v17mnleh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.audiolaby",
+            "certificate_hash": "ec9f85296a02e1c7274b2bec60269576cea4ca62"
+          }
+        },
+        {
+          "client_id": "483920825919-0vl7rum6ljo9rc4sb1iavkmjqnltq57t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.audiolaby",
+            "certificate_hash": "5c4e36885853df2152b319c8a1432af85871fe3e"
+          }
+        },
+        {
+          "client_id": "483920825919-ob4mhk6slm6fdkdgm9tjgkdibd2ai83d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmCUlcMwUTWb-J2acAfrkR4q0OaDnQ2rA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483920825919-ob4mhk6slm6fdkdgm9tjgkdibd2ai83d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:digit="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="1dip" >
+
+
+    <com.audiolaby.view.player.utils.timely.TimelyView
+        android:id="@+id/digit_l1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="8sp"
+        app:text_color="#ffffff" />
+
+
+    <com.audiolaby.view.player.utils.timely.TimelyView
+        android:id="@+id/digit_l10"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="8sp"
+        app:text_color="#ffffff" />
+
+    <com.audiolaby.view.player.utils.timely.TimelyView
+        android:id="@+id/digit_l100"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="8sp"
+        app:text_color="#ffffff" />
+
+
+    <com.audiolaby.view.player.utils.timely.TimelyView
+        android:id="@+id/digit_l1k"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="8sp"
+        app:text_color="#ffffff" />
+
+    <com.audiolaby.view.player.utils.timely.TimelyView
+        android:id="@+id/digit_l10k"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="8sp"
+        app:text_color="#ffffff" />
+
+    <com.audiolaby.view.player.utils.timely.TimelyView
+        android:id="@+id/digit_l100k"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="8sp"
+        app:text_color="#ffffff" />
+
+    <com.audiolaby.view.player.utils.timely.TimelyView
+        android:id="@+id/digit_l1m"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="8sp"
+        app:text_color="#ffffff" />
+
+
+    <com.audiolaby.view.player.utils.timely.TimelyView
+        android:id="@+id/digit_l10m"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="8sp"
+        app:text_color="#ffffff" />
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.arasthel:spannedgridlayoutmanager:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spannedgridlayoutmanager-2.0.1.aar/8f719e08a0598aeddc13e2618bf12b9a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spannedgridlayoutmanager-2.0.1.aar/8f719e08a0598aeddc13e2618bf12b9a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.arasthel/spannedgridlayoutmanager/2.0.1/4553725cf5f7a5dc7e129362066021e3fa0968ee/spannedgridlayoutmanager-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

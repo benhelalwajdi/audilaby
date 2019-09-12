@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/mini_player_height"
+    android:layout_gravity="top">
+
+    <com.audiolaby.view.player.utils.SquareImageView
+        android:id="@+id/mini_picture"
+        android:layout_width="@dimen/mini_player_height"
+        android:layout_height="@dimen/mini_player_height"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/empty" />
+
+    <ProgressBar
+        android:id="@+id/mini_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_toLeftOf="@id/mini_picture"
+        android:maxHeight="3dp"
+        android:progressDrawable="@drawable/player_progress_bar"
+        android:progress="30"/>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mini_progress"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/mini_picture"
+        android:layout_toRightOf="@+id/frame"
+        android:gravity="right"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/mini_title"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/mini_artist"
+            style="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="2dp"
+            android:ellipsize="end"
+            android:maxLength="20"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/frame"
+        android:orientation="vertical"
+        android:layout_below="@+id/mini_progress"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/play_frame"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="5dp">
+
+            <com.audiolaby.view.player.utils.PlayPauseButton
+                android:id="@+id/mini_play"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="10dp"/>
+
+            <View
+                android:id="@+id/mini_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackgroundBorderless" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/close_frame"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp">
+            <LinearLayout
+                android:id="@+id/close_mini"
+                android:layout_width="50dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/icon_close"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingPrefix"
+                    fontPath="FontAwesome.otf"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

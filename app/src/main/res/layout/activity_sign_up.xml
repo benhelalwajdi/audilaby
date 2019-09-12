@@ -1,0 +1,10 @@
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flipper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include layout="@layout/slide_signup1" />
+    <include layout="@layout/slide_signup2" />
+    <include layout="@layout/slide_signup3" />
+
+</ViewFlipper>

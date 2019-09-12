@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fxn769:oblique:2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oblique-2.0.aar/f4df5eb9ab8474117ab0d5d6e1710b08/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oblique-2.0.aar/f4df5eb9ab8474117ab0d5d6e1710b08/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fxn769/oblique/2.0/198b6e148535acb359a185170bb96f1a878bf8/oblique-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
